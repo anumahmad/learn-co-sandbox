@@ -77,7 +77,7 @@ def calculator
 end
 
 #need to call
-
+#calculator
 
 #draft 3 
 
@@ -97,52 +97,52 @@ def multi_calculator
         $first_number = gets.strip.to_f
      puts "#{$first_number}"
     end #def one_number
-  one_number
+      one_number
    
    #two numbers
     
    elsif amount == 2
     def two_number
       puts "What is your first number?"
-        $first_number = gets.strip.to_f
+        $first_number=gets.strip.to_f
       puts "+ | - | * | / |"
         operation = gets.strip
       puts "What is your second number?"
-        $second_number = gets.strip.to_f
+        $second_number=gets.strip.to_f
         
       if operation == "+"
         def addition
           sum = $first_number + $second_number
           puts sum
       end #addition
-      addition
+        addition
      
       elsif operation == "-"
         def subtraction
           difference = $first_number - $second_number
           puts difference
         end #subtraction
-      subtraction
+        subtraction
       
       elsif operation == "*"
         def multiplication
         product = $first_number * $second_number
         puts product
         end #multiplcation
-      multiplication
+        multiplication
       
       elsif operation == "/" && $second_number == 0 
         def divide_error
           puts "Error - cannot divide by 0"
         end  #divide error
-      divide_error
+        divide_error
         
       elsif operation == "/"
         def division
           quotient = $first_number / $second_number
           puts quotient
         end #division
-      division
+        division
       else 
         puts "Error 404"
        #all ifs/elsif/end
@@ -151,8 +151,8 @@ def multi_calculator
   end # def amount
   
   #three numbers
-  
-  elsif amount == 3
+
+  elsif _end amount == 3
     def three_number
       puts "What is your first number?"
         $first_number = gets.strip.to_f
@@ -199,15 +199,18 @@ def multi_calculator
       else 
         puts "Error 404"
       end #all ifs/elsif/end
+ end
+ end
     end # third_number
     three_number
-  end # def amount
-  
-  
-  
+   # def amount
 
-end #def multi_calculator
+  
+  
+                  #def multi_calculator
 
+
+multi_calculator
 #need to call
 
 
@@ -219,7 +222,7 @@ def happy_calculator
   
 
 puts "Welcome to the Happy Calculator! by the lovely Anum and Ellie! We wuuuuuuuuv you! <3"
-sleep(2)
+sleep(1)
 
   puts "How many numbers are you 'mathing' (1, 2, or 3?)?"
     amount = gets.strip.to_i
@@ -541,6 +544,6 @@ puts "Thanks for using have a Happy, Dappy, Klossy Day! #codeon!"
 
 end #def intense_calculator
 
-intense_calculator
+#intense_calculator
 
 
